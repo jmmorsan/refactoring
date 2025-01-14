@@ -12,6 +12,10 @@ Las operaciones (paridad, signo, cuadrado) se realizan dentro del bucle y se pre
 Finaliza con un mensaje de cierre.
 Comentario general:
 El programa es útil para practicar operaciones básicas con números enteros, condicionales y bucles. Además, enseña cómo usar un do-while para mantener un flujo continuo hasta cumplir una condición.
+## Cambios Robert Esquerre:
+- Separación de operaciones por métodos para volver a utilizarlas si se requieren 
+más adelante: (par, positivo, cuadrado, mostrar info)
+
 
 Ejercicio 2: Cálculo de edades y estadísticas
 Funcionalidad general:
