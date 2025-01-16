@@ -13,6 +13,18 @@ Finaliza con un mensaje de cierre.
 Comentario general:
 El programa es útil para practicar operaciones básicas con números enteros, condicionales y bucles. Además, enseña cómo usar un do-while para mantener un flujo continuo hasta cumplir una condición.
 
+COMENTARIO SILVIA:
+Extracción de Lógica Repetitiva en Métodos:
+La lógica de procesamiento del número ( par/impar, positivo/negativo, cuadrado) se ha extraído a un método separado llamado procesarNumero(int numero). Esto mejora la claridad y hace que el código principal sea más conciso y fácil de leer.
+
+Creación de Métodos Auxiliares:
+Se agregaron los métodos auxiliares esPar(int numero)y calcularCuadrado(int numero):
+esPar(int numero)evalúa si un numero es par.
+calcularCuadrado(int numero)calcula el cuadrado de un número. Esto permite reutilizar la lógica si es necesario y mejorar la modularidad del código.
+
+Uso de Operador Condicional ( ? :) :
+En lugar de usar bloques ifseparados para verificar si el número es par o positivo/negativo, se utiliza el operador cond.      
+
 Ejercicio 2: Cálculo de edades y estadísticas
 Funcionalidad general:
 Este programa solicita las edades de varios alumnos hasta que se introduce una edad negativa. Luego calcula y muestra:
